@@ -1,0 +1,187 @@
+/* .festaContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    top: 100%;
+} */
+.festaContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 7vw;
+}
+ 
+.festaMain {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* gap: 2vh; */
+ 
+}
+ 
+.eventButtons button {
+    width: 100%;
+    background-color: #386641;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vh;
+}
+.EstrturasFisicas{
+    display: flex;
+    /* flex-direction: column;
+    justify-content: space-around;
+    gap: 10vh; */
+    text-align: center;
+}
+
+.cozinhaBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+    margin-bottom: 1em;
+}
+.textocozinha{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+
+
+}
+.tomboBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+    margin-bottom: 1em;
+}
+.texttombo{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+}
+.paiolBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+    margin-bottom: 1em;
+
+}
+.textopaiol{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+}
+.historiasBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+    margin-bottom: 1em;
+
+}
+.textohistorias{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+}
+.BoxEvento{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+}
+.culinariaBox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* gap:1vh ; */
+    text-align: center;
+}
+.culinariaDivisoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:2vh ; 
+    text-align: center;
+    align-items: center;
+    
+}
+.alimentoBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1vh;
+    color: white;
+    width: 400px;
+    height: 530px;
+    align-items: center;
+}
+/* .macarraoBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+}
+.linguiçaBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+}
+.capelletiBox{
+    background-color: #386641;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1vh;
+    color: white;
+} */
+@media screen and (max-width:960px){
+    .home-container > h1 {
+        font-size: 70px;
+        margin-top: -150px;
+
+}
+}
+@media screen and (max-width:768px) {
+    .home-container > h1 {
+        font-size: 50px;
+        margin-top: -1500px;
+
+}
+    .home-container > p {
+        font-size: 30px ;
+    }
+}
